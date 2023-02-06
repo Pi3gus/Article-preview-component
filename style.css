@@ -13,10 +13,30 @@
 body{
     background-color: #363636;
     font-family: 'Manrope', sans-serif;
+    display: grid;
+    place-items: center;
+    font-size: 13px;
+
 }
 .container{
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+}
+main{
+    background-color: var(--Light-Grayish-Blue);
+    display: flex;
+    flex-direction: column;
+}
+main > h2{
+    font-weight: 700;
+    color: var(--Very-Dark-Grayish-Blue);
+}
+main > p{
+    font-weight: 500;
+    color: var(--Desaturated-Dark-Blue);
+}
+.profil{
+    display: flex;
 }
